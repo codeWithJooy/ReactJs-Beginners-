@@ -1,0 +1,128 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.head_section{
+  width:100%;
+  height:70px;
+  background: #FFFFFF;
+box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: center;
+  padding-left: 30px;
+}
+.head_section span{
+  font-size: 20px;
+  font-weight: bold;
+  color:white;
+}
+/*=================================
+       Card Unit Starts Here
+==================================*/
+.card_section{
+  max-width: 100%;
+  padding:20px 20px;
+
+}
+.card_unit{
+  position:relative;
+  width:100%;
+  min-height:320px;
+  padding:10px 10px;
+  box-shadow: 0 0 10px lightgray;
+  border-radius: 10px;
+  margin:10px 0px;
+}
+span.badge{
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  left: 33px;
+  top: 20px;
+  z-index:22;
+  text-align: center;
+background: #FFFFFF;
+border-radius: 2px;
+}
+.card_container{
+  width:100%;
+  height:320px;
+}
+.card_image{
+  width:100%;
+  height:240px;
+}
+.card_image img{
+  width:100%;
+  height:100%;
+  border-radius: 10px;
+  z-index:1;
+}
+.card_info{
+  width:100%;
+  height:30px;
+  display: flex;
+  align-items: center;
+  padding:0px 10px;
+}
+.card_info img{
+  width:10px;
+  height:6px;
+}
+.card_info span{
+  margin:0px 1px;
+  font-weight: 300;
+font-size: 12px;
+line-height: 110%;
+}
+.ratings{
+
+}
+.votes{
+  color: #918E9B;
+}
+span.country{
+  color:#918E9B;
+  margin-left: 10px;
+}
+.card_description{
+  width:100%;
+  padding:0px 10px;
+}
+.card_description span{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110%;
+color: #222222;
+}
+.card_cost{
+  width:100%;
+  padding:0px 10px;
+}
+.card_cost span{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 110%;
+  color: #222222;
+}
+/*=================================
+       Card Unit Ends Here
+==================================*/
+
+
